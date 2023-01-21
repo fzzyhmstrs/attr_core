@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "attributes_core",
+	"version": "${version}",
+	"name": "Attributes Core",
+	"description": "Adds various entity attributes like Exhaustion Rate, Oxygen Time, Jump Height and more!",
+	"authors": [
+		"fzzyhmstrs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/attributes_core/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.fzzyhmstrs.attributes_core.AC"
+		]
+	},
+	"mixins": [
+		"attributes_core.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.13",
+		"minecraft": "~1.19",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
